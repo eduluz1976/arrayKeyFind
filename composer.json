@@ -1,0 +1,20 @@
+{
+    "name": "eduluz1976/array-key-find",
+    "description": "Utility to find the elements with a defined key or value, in a multidimentional array.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Eduardo Luz",
+            "email": "eduluz.canada@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev" : {
+        "phpunit/phpunit": "=6.5"
+    },
+    "autoload": {
+        "psr-4": {"eduluz1976\\ArrayUtils\\": ["src/"]}
+    }
+}
